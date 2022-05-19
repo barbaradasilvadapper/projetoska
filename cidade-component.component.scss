@@ -1,0 +1,183 @@
+body {
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.header {
+	background-color: #0B132A;
+    height: 7%;
+    display: flex;
+    margin-top: 1.5%;
+    border-radius: 10px;
+    border: none;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.align-left {
+    justify-content: left;
+    padding-top: 1%;
+    
+}
+
+.main {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    height: 30%;
+}
+
+.align-center {
+    justify-content: center;
+}
+
+.align-right {
+    justify-content: right;
+    padding-top: 1%;
+    
+}
+
+.align-end {
+    justify-content: end;
+}
+
+.align-center, .align-end {
+    align-items: center;
+}
+
+.imagem-mapa{
+    position: absolute;
+    width: 1105px;
+    height: 580px;
+    left: 125px;
+    top: 220px;
+}
+
+.titulocidade{
+    position: absolute;
+    width: 383.41px;
+    height: 50px;
+    left: 515px;
+    top: 200px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+
+    text-align: center;
+
+    color: #0B132A;
+}
+
+.continuar-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 30px;
+
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    top: 400px;
+    left: 35%;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: bold;
+
+    background: linear-gradient(90deg, #F53838 0%, #F53838 100%);
+    border-radius: 20px;
+}
+
+.continuar-btn2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 30px;
+
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    top: 400px;
+    right: 35%;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: bold;
+
+    background: linear-gradient(90deg, #F53838 0%, #F53838 100%);
+    border-radius: 20px;
+}
+
+.retangulo{
+    position: absolute;
+    width: 743px;
+    height: 289px;
+    left: 330px;
+    top: 386px;
+
+    background: rgba(221, 221, 221, 0.22);
+    border-radius: 15px;
+}
+
+.barrapesquisa{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 530px;
+    top: 442px;
+    background: rgba(221, 221, 221, 0.22);
+    border-radius: 2px;
+}
+.pesquisar{
+    position: absolute;
+    left: 860;
+    top: 450px;
+    background: rgba(221, 221, 221, 0.22);
+    border-radius: 2px;
+}
+
+.textocidade{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 40px;
+    top: 100px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+
+    text-align: center;
+
+    color: #F53838;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 530px;
+    top: 442px;
+}
